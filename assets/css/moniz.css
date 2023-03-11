@@ -270,7 +270,7 @@ ul {
 }
 
 .thm-btn--dark:hover::before,
-.thm-btn--dark::before {
+/* .thm-btn--dark::before  */ {
   background-color: var(--moniz-base, #ffffff);
 }
 
