@@ -498,6 +498,7 @@ body.boxed-wrapper {
 @media (min-width: 992px) {
   .main-menu {
     padding: 0 30px;
+    background-color: rgba(65,20,114, 0.3);
   }
 }
 
@@ -3293,7 +3294,7 @@ body.boxed-wrapper {
   position: relative;
   display: block;
   background-color: #ffffff;
-  padding: 100px 0 50px;
+  padding: 20px 0 0;
   border-top: 1px solid var(--moniz-extra, #e4e4ea);
 }
 
@@ -5293,6 +5294,23 @@ body.boxed-wrapper {
   position: relative;
   display: block;
   padding: 120px 0 90px;
+}
+
+.team-fluid {
+  width: 400px !important;
+  height: 450px !important;
+  object-fit: cover !important;
+}
+
+.teamedit {
+  transition: all 0.3s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.skills-text{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
 }
 
 .team-one .section-title {
