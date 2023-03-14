@@ -3533,6 +3533,11 @@ body.boxed-wrapper {
   z-index: 2;
 }
 
+.about-two-boxes{
+  position: absolute !important;
+  width: 100%;
+}
+
 .two-boxes__inner {
   position: relative;
   display: block;
@@ -3608,8 +3613,8 @@ body.boxed-wrapper {
 }
 
 .two-boxes__arrow a {
-  height: 52px;
-  width: 52px;
+  height: 80px;
+  width: 80px;
   background-color: #f1f1f5;
   color: var(--moniz-black, #1e1e22);
   font-size: 20px;
