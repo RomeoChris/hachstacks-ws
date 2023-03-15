@@ -508,14 +508,14 @@
     odo.each(function () {
       $(this).appear(function () {
         var countNumber = $(this).attr("data-count");
-        $(this).html(countNumber);
+        $(this)(countNumber);
       });
     });
   }
 
   if ($(".dynamic-year").length) {
     let date = new Date();
-    $(".dynamic-year").html(date.getFullYear());
+    $(".dynamic-year")(date.getFullYear());
   }
 
   if ($(".wow").length) {
