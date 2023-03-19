@@ -5373,23 +5373,23 @@ body.boxed-wrapper {
   padding: 11px 0;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: -20px;
-  position: relative;
-  -webkit-transform: scaleY(0);
-          transform: scaleY(0);
-  -webkit-transform-origin: center;
-          transform-origin: center;
+  margin-top: -40px;
+  position: relative; 
+  /* -webkit-transform: scaleY(0);
+          transform: scaleY(0); */ 
+  /* -webkit-transform-origin: center;
+          transform-origin: center;  
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
   -webkit-transform-origin: bottom center;
-          transform-origin: bottom center;
+          transform-origin: bottom center; */
 }
 
 .team-one__single:hover .team-one__social {
-  -webkit-transform: scaleY(1);
-          transform: scaleY(1);
+  /* -webkit-transform: scaleY(1);
+          transform: scaleY(1); */
 }
 
 .team-one__social a {
@@ -5403,7 +5403,7 @@ body.boxed-wrapper {
   -ms-flex-pack: center;
       justify-content: center;
   text-align: center;
-  color: var(--moniz-black, #1e1e22);
+  color: #000000;
   border-radius: 50%;
   font-size: 18px;
   -webkit-transition: all 500ms ease;
@@ -5411,7 +5411,7 @@ body.boxed-wrapper {
 }
 
 .team-one__social a:hover {
-  color: var(--moniz-primary, #411472);
+  color: #411472;    
 }
 
 .team-one__social a + a {
