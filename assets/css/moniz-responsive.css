@@ -622,6 +622,11 @@
 
     .counters-one__box {
         text-align: center;
+        margin-top: -60px;
+    }
+
+    .counters-one {
+        padding-bottom: 0px !important;  
     }
 
     .counter-one__single:before {
@@ -1210,19 +1215,19 @@
     }
 
     .cta-resp{
-        margin-top: 300px !important; 
+        margin-top: 230px !important; 
     }
 }
 
 @media only screen and (max-width: 500px){
     .two-boxes__text {
-        margin-left: -15px;
+        margin-left: 0px;
     }
     .two-boxes__icon{
         display: none;
     }
     .two-boxes__arrow{
-        right: 0px; 
+        right: 30px; 
     }
 }
 

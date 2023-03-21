@@ -3613,8 +3613,8 @@ body.boxed-wrapper {
 }
 
 .two-boxes__arrow a {
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
   background-color: #f1f1f5;
   color: var(--moniz-black, #1e1e22);
   font-size: 20px;
