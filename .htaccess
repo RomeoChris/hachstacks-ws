@@ -14,10 +14,4 @@
     RewriteCond %{REQUEST_FILENAME} !-d 
     RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-    #index redirect 
-    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/ 
-    RewriteRule ^index\.html$ http://hachstacks.com/ [R=301,L]
-    RewriteCond %{THE_REQUEST} \.html 
-    RewriteRule ^(.*)\.html$ /$1 [R=301,L] 
-
 </IfModule> 
